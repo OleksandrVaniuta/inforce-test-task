@@ -46,7 +46,7 @@ export default function PopupWindow({
     <CSSTransition
       in={isModalOpen}
       nodeRef={nodeRef}
-      timeout={10000}
+      timeout={300}
       classNames="modal"
       unmountOnExit
     >
